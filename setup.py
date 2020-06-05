@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 
 setup(
     name                = 'bbyu-nickname-generator',
-    version             = '0.14',
+    version             = '0.15',
     description         = 'bbyu-nickname-generator',
     author              = 'martianlee',
     author_email        = 'martianlee@gmail.com',
