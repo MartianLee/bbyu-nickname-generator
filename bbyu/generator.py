@@ -1,4 +1,4 @@
-from data import korean
+from .data import korean
 import random
 
 animal = korean.animal
