@@ -1,10 +1,14 @@
 # bbyu-nickname-generator
+
 Generate nickname with various options(animal, color etc.)
+
 Currently supports only korean. but have plans to add all of the language in the world
+
 ### Objects
-  * adjective
-  * animal
-  <!-- * color -->
+
+* adjective
+* animal
+* color
 
 ## Install
 ```shell
@@ -20,7 +24,11 @@ pip install bbyu-nickname-generator
 >> '뒤늦은-물개-234'
 >> print(generator.generate(max_length=10, number_length=2)) # default seperator = None
 >> '외로운원숭이28'
+>> generate(max_length=10, number_length=2, items=['number', '번째', 'color', 'animal'])
+>> '72번째분홍색문어'
 ```
+
+* Find out test.py for basic use case.
 
 ## Setting
 
@@ -32,8 +40,11 @@ generator.easy_generate()
 
 ### generate()
 ```python
-generator.generate(max_length=12, number_length=3, seperator='-')
+generator.generate(max_length=12, number_length=3, items=['color', 'animal', 'number'], seperator='-')
 ```
 * ``max_length`` : The maximum length of nickname. It's easy to limit length of field.
 * ``number_length`` : The length of number which locates end of the nickname.
-* ``seperator`` : The seperator which shows up in between two object(adj, color, animal etc).
+* ``item`` : List of item type. item is the object which you can put in nickname. If you don't set any sequence, default is ``['adjective', 'number']``.
+  * item list : ``'color', 'animal', 'number'``
+  * else : except above item name, generator understand it's plain text. So they just put it to all nicknames. ex) '73``th``_red_mouse', '42``th``_green_horse'
+* ``seperator`` : The seperator which shows up in between two item(adj, color, animal etc).
