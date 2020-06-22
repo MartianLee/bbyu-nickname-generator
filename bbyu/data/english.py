@@ -1,0 +1,36 @@
+animal = ['kangaroo','rabbit','puppy','cat','koala','gorilla','monkey','whale','camel','snake',
+          'Seal','rat','cow','horse','pig','turtle','crocodile','tiger','leopard','cheetah',
+          'Wolf','fox','skunk','mole','dolphin','lizard','poison','sea leopard','lobster',
+          'Lap star','mandarin','crow','duck','parrot','owl','sparrow','oak tail','butterfly',
+          'Dragonfly','Iguana','Chameleon','Anteater','Spider','Koi','Bear','Penguin','Goose',
+          'Bat','chick','chicken','wild boar','seagull','rhino','deer','elephant','hippo',
+          'Squirrel', 'stingray', 'meerkat', 'cobra', 'growup', 'toad', 'magpie', 'blowfish', 'octopus',
+          'Squid','Jukkumi','Jellyfish','Pool platypus','Raccoon','Sheep','Pheasant','Frog',
+          'Quilter','Salmonosa','Cicada','Sky Cow','Mae','Mungfish','Horse','Bee','Goat',
+          'Pigeon','beetle','goat','woodpecker','back on','crane','snail','settle'
+          'Roe deer','Osolgae','Silkworm','Anaconda','Sister','Cuckoo','Octopus','Swallow','Lion']
+
+adjective = ['slim','thin','poor','same','strong','rough','lazy','lazy','lazy',
+             'Thank you','Thank you','Goth','Goth','Straight','Okay','Cute','Great','Wait',
+             'Joy','Long','Clean','Bad','Me','Imnowhere','Sleek','Sharp','Generous',
+             'Nerd','naughty','wide','square','high','nothing','slow','late','other',
+             'Dirty','Hot','Less','Round','Supreme','Don','Round','Round','Late',
+             'Rare','hard','late','excellent','hot','dead end','many','spicy','distant','wonderful',
+             'Sterile','Nauseous','Ugly','Naughty','Ugly','Heavy','Dull','Smooth','Scary','Slicky',
+             'Ugly','desirable','welcome','bright','board round','rewarding','nothing','soft','calling',
+             'Red','Expensive','Fast','Petish','Fusion','New','Cutish','Crown','Sulun','Annoying','Sen',
+             'Speaky','Shy','Easy','Sacred','Sad','Cool','Hate','Chilly',
+             'Scary','No','No','Beautiful','Unfortunate','Sick','Unfortunate','Unfortunate',
+             'Unfortunate','Reasonable','Quick','Little','Thin','Shallow','Dark','Difficult','Little',
+             'Unpleasant','Great','Yeomun','Hot','Pretty','Right','Right','Lonely','Funny',
+             'Suspicious','early','ripe','with','small','poor','bad','handsome','funny',
+             'Young','Decent','Small','Narrow','Good','Subject','Study','Pleasant','Excessive',
+             'Wiseful','Tough','Wicked','Dark','Short','Cold Old','Big','Covetous','Chuckless',
+             'Blue','one like','consistent','cloudy','hopeful','white','difficult','himchan']
+
+color = ['brown','forsythia','black','orange','gold','navy blue','navy','yellow','green','reddish',
+         'Light blue','Denim','Orange','Lavender color','Lime green','Sea blue','Light purple','Light blue','Brown',
+         'Beige','Purple','Pink','Red','Ivory','Apricot','Celeste','Cyan','Magenta',
+         'Coral','Dark Blue','Yellow Green','Ok','Olive','Silver','Ivory','Aquamarine',
+         'Purple','Fuchsia','Rose','Orange','Cyan','Blue Purple','Green','Khaki','Cobalt Blue',
+         'Blue','Full Color','Sky Blue','White','Ocher','Gray']
